@@ -1,0 +1,163 @@
+.ss{
+   -fx-background-color: linear-gradient(from 20px 300px to 150px 30px, #4b9edd, #ebebeb);
+}
+.sss{
+   -fx-background-color: linear-gradient(from 0px 0px to 900px 800px, #4b9edd, #FC565D);
+}
+.gg{
+   -fx-background-color: linear-gradient(from 20px 300px to 150px 30px, #15bdff, #ebebeb),      
+  radial-gradient(center 1% 110% , radius 200%,  #F57D6C,  #15bdff);
+
+}
+.ggs{
+   -fx-background-color: linear-gradient(from 20px 300px to 150px 30px, black, #ebebeb);
+}
+
+.shiny{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 10 20 10 20;
+}
+
+
+.shinys{
+    -fx-background-color: 
+        linear-gradient(#ffd65b, #e68400),
+        linear-gradient(#ffef84, #f2ba44),
+        linear-gradient(#ffea6a, #efaa22),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 6 7 6 7;
+}
+
+.shinys:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%,  #f8c202,  #f8c202);
+}
+.shinys:pressed {
+    -fx-padding: 7 8 7 8;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+
+
+
+.cansel{
+    -fx-background-color: 
+    
+        linear-gradient(red 0%, red 50%, red 100%),
+        linear-gradient(from 0% 0% to 15% 50%, red, red);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 15px;
+    -fx-padding: 4 7 4 7;
+}
+
+.cansel:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 50%, red 0%, red 100%),
+        red,
+     
+        radial-gradient(center 80% 60%, radius 200%,  red,  white);
+}
+.cansel:pressed {
+    -fx-padding: 7 8 7 8;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+
+.shiny-orange {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        /* linear-gradient(from 0% 93% to 0% 100%, #2fcfff 0%, #ffc6c2 100%), */
+        /* #049aff,
+        #58cbee, */
+        radial-gradient(center 50% 50%, radius 100%, #e2cf27, #ff7300);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 19;
+    -fx-text-fill: rgb(0, 0, 0);
+    -fx-text-effect: dropshadow( gaussian , #009b93 , 0,0,0,2 );
+}
+
+
+
+
+
+.shiny-orange Text {
+
+}
+.shiny-orange:hover {
+    -fx-background-color: 
+        linear-gradient(from 50% 50% to 0% 100%, #d46835 0%, #d6c423 100%),
+        #d6c423,
+        #da4f36,
+        radial-gradient(center 50% 50%, radius 100%, #fc9081, #ffd900);
+}
+.shiny-orange:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}
+
+
+
+
+
+
+
+shiny-o {
+    -fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        linear-gradient(#ffe657 0%, #f8c202 50%, #eea10b 100%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,1 );
+    -fx-font-weight: bold;
+    -fx-font-size: 19;
+    -fx-text-fill: white;
+    -fx-text-effect: dropshadow( gaussian , #a30000 , 0,0,0,2 );
+}
+
+
+
+
+
+.shiny-o Text {
+
+}
+.shiny-o:hover {
+    -fx-background-color: 
+        linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+        #9d4024,
+        #d86e3a,
+        radial-gradient(center 50% 50%, radius 100%, #ea7f4b, #c54e2c);
+}
+.shiny-o:pressed {
+    -fx-padding: 10 15 13 15;
+    -fx-background-insets: 2 0 0 0,2 0 3 0, 2 0 4 0, 2 0 5 0;
+}

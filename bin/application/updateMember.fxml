@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="gg" stylesheets="@../../New%20Text%20Document.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.updateMemberController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="50.0" layoutY="112.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <TextField fx:id="nameText" layoutX="130.0" layoutY="111.0" prefHeight="0.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <Label layoutX="50.0" layoutY="151.0" text="Gender">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="50.0" layoutY="194.0" text="Phone">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="113.0" layoutY="29.0" text="Update Member Information">
+               <font>
+                  <Font name="System Bold" size="26.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancelButton" layoutX="501.0" layoutY="353.0" mnemonicParsing="false" onAction="#toMemberTable" prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 35;" styleClass="cansel" text="Cancel" />
+            <Button fx:id="updateButton" layoutX="403.0" layoutY="351.0" mnemonicParsing="false" onAction="#successUpdate" prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 35;" styleClass="shinys" text="Update" />
+            <TextField fx:id="phoneText" layoutX="130.0" layoutY="193.0" prefHeight="0.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <Label layoutX="50.0" layoutY="232.0" text="Address">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="50.0" layoutY="273.0" text="Birthdate">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="wrongInput" layoutX="34.0" layoutY="357.0" textFill="#9f0c0c" />
+            <TextField fx:id="addressText" layoutX="130.0" layoutY="231.0" prefHeight="0.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <DatePicker fx:id="birthdate" layoutX="130.0" layoutY="272.0" prefHeight="0.0" prefWidth="160.0" />
+            <Label layoutX="50.0" layoutY="314.0" text="Start Date">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <DatePicker fx:id="startdate" layoutX="130.0" layoutY="313.0" prefHeight="0.0" prefWidth="160.0" />
+            <Label layoutX="50.0" layoutY="76.0" text="ID">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="memberIdLabel" layoutX="158.0" layoutY="76.0">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="genderList" layoutX="130.0" layoutY="152.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="515.0" prefWidth="1250.0" stylesheets="@../../New%20Text%20Document.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.moneyController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label fx:id="warningLabel" alignment="CENTER" layoutX="74.0" layoutY="64.0" prefHeight="118.0" prefWidth="1157.0" text="Label" textAlignment="CENTER" textFill="#e1700e">
+               <font>
+                  <Font name="Microsoft Uighur" size="47.0" />
+               </font>
+            </Label>
+            <Button fx:id="okButton" layoutX="548.0" layoutY="429.0" mnemonicParsing="false" onAction="#toBorrowTable" prefHeight="38.0" prefWidth="155.0" style="-fx-background-radius: 35;" styleClass="shinys" text="Done">
+               <font>
+                  <Font size="18.0" />
+               </font></Button>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

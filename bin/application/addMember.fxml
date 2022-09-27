@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@../../New%20Text%20Document.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.addMemberController">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="600.0" styleClass="gg" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="51.0" layoutY="80.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <TextField fx:id="nameText" layoutX="140.0" layoutY="80.0" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <Label layoutX="51.0" layoutY="131.0" text="Gender">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="51.0" layoutY="182.0" text="Phone">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="207.0" layoutY="14.0" text="Add Member">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancelButton" layoutX="501.0" layoutY="353.0" mnemonicParsing="false" onAction="#toMemberTable" prefHeight="25.0" prefWidth="70.0" styleClass="cansel" text="Cancel" />
+            <Button fx:id="addButton" layoutX="392.0" layoutY="351.0" mnemonicParsing="false" onAction="#successAdd" prefHeight="25.0" prefWidth="70.0" styleClass="shinys" text="Add" />
+            <TextField fx:id="phoneText" layoutX="140.0" layoutY="182.0" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <Label layoutX="51.0" layoutY="233.0" text="Address">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label layoutX="51.0" layoutY="278.0" text="Birthdate">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <Label fx:id="wrongInput" layoutX="34.0" layoutY="357.0" textFill="#9f0c0c" />
+            <TextField fx:id="addressText" layoutX="140.0" layoutY="233.0" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <DatePicker fx:id="birthdate" layoutX="140.0" layoutY="278.0" prefWidth="160.0" />
+            <Label layoutX="51.0" layoutY="322.0" text="Start Date">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font></Label>
+            <DatePicker fx:id="startdate" layoutX="140.0" layoutY="322.0" prefWidth="160.0" />
+            <ComboBox fx:id="genderList" layoutX="140.0" layoutY="133.0" prefWidth="160.0" style="-fx-background-radius: 35;" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="396.0" layoutY="107.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../Add_user_icon_(blue).svg.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

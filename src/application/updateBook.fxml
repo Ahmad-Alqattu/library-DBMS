@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="gg" stylesheets="@../../New%20Text%20Document.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.updateBookController">
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="163.0" layoutY="27.0" text="Update Book Information">
+               <font>
+                  <Font name="System Bold" size="23.0" />
+               </font>
+            </Label>
+            <Button fx:id="cancelButton" layoutX="501.0" layoutY="353.0" mnemonicParsing="false" onAction="#toBookTable" prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 35;" styleClass="cansel" text="Cancel" />
+            <Button fx:id="updateButton" layoutX="406.0" layoutY="351.0" mnemonicParsing="false" onAction="#successUpdate" prefHeight="25.0" prefWidth="70.0" style="-fx-background-radius: 35;" styleClass="shinys" text="Update" />
+            <Label fx:id="wrongInput" layoutX="34.0" layoutY="357.0" textFill="#9f0c0c" />
+            <GridPane layoutX="85.0" layoutY="72.0" prefHeight="285.0" prefWidth="263.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="135.0" minWidth="10.0" prefWidth="116.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="179.0" minWidth="10.0" prefWidth="147.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField fx:id="titleText" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" />
+                  <Label text="Title">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Author" GridPane.rowIndex="1">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="authorText" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="Category" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <Label text="Buying_price" GridPane.rowIndex="3">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="Buying_price" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Label text="Selling_price" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="priceText" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Label text="Quantity" GridPane.rowIndex="5">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="quantityText" prefHeight="25.0" prefWidth="160.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Label text="Publisher Name" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="System Bold" size="15.0" />
+                     </font>
+                  </Label>
+                  <ComboBox fx:id="pubNameList" prefHeight="25.0" prefWidth="159.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <ComboBox fx:id="categoryText" prefHeight="25.0" prefWidth="159.0" style="-fx-background-radius: 35;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

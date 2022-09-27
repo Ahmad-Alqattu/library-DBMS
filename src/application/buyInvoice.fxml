@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<DialogPane prefHeight="545.0" prefWidth="538.0" styleClass="ss" stylesheets="@../../New%20Text%20Document.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.buyinvoicec">
+   <content>
+      <AnchorPane prefHeight="698.0" prefWidth="847.0" styleClass="ss" stylesheets="@../../New%20Text%20Document.css">
+         <children>
+            <Label fx:id="amountPaid" layoutX="38.0" layoutY="556.0" prefHeight="80.0" prefWidth="145.0" text="Amount Paid:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="MemberID" layoutX="50.0" layoutY="299.0" prefHeight="80.0" prefWidth="123.0" text="Member ID:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookTitle" layoutX="40.0" layoutY="419.0" prefHeight="52.0" prefWidth="115.0" text="Book Title:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="MemberName" layoutX="46.0" layoutY="366.0" prefHeight="53.0" prefWidth="163.0" text="Member Name:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="Book_id" layoutX="210.0" layoutY="45.0" prefHeight="80.0" prefWidth="183.0">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookID" layoutX="297.0" layoutY="203.0" prefHeight="79.0" prefWidth="89.0" text="Book ID:" textFill="#002983">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="borrowDate" layoutX="72.0" layoutY="212.0" prefHeight="54.0" prefWidth="58.0" text="Date:" textFill="#002983">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <Label layoutX="48.0" layoutY="164.0" text="- Purchase Receipt -" textFill="#ff8b00">
+               <font>
+                  <Font name="Arial" size="34.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="266.0" layoutY="23.0" prefHeight="90.0" prefWidth="537.0" style="-fx-border-color: #002983; -fx-border-radius: 25; -fx-border-width: 5;" text="Ramallah Library" textAlignment="CENTER" textFill="#00bbee">
+               <font>
+                  <Font name="Arial Bold" size="61.0" />
+               </font>
+            </Label>
+            <VBox layoutX="24.0" layoutY="279.0" prefHeight="7.0" prefWidth="800.0">
+               <children>
+                  <Line endX="669.6755981445312" endY="56.87872314453125" startX="-128.2839813232422" startY="56.5858154296875" stroke="#002983" strokeWidth="5.0" />
+               </children>
+            </VBox>
+            <Label layoutX="335.0" layoutY="645.0" prefHeight="67.0" prefWidth="141.0" text="Contact info: &#10;LibraryCont@gmail.com&#10; 02-296XXXX " textAlignment="CENTER" textFill="#09243b">
+               <font>
+                  <Font name="Arial" size="12.5" />
+               </font>
+            </Label>
+            <Label layoutX="544.0" layoutY="215.0" prefHeight="54.0" prefWidth="138.0" text="Employee ID:" textFill="#002983">
+               <font>
+                  <Font name="Arial" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="discount" layoutX="37.0" layoutY="505.0" prefHeight="81.0" prefWidth="170.0" text="Dicount (if any):" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="bookPrice" layoutX="37.0" layoutY="466.0" prefHeight="65.0" prefWidth="124.0" text="Book Price:" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="22.0" />
+               </font>
+            </Label>
+            <Label fx:id="memberID_Data" layoutX="176.0" layoutY="301.0" prefHeight="75.0" prefWidth="165.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="memberName_Data" layoutX="208.0" layoutY="376.0" prefHeight="34.0" prefWidth="193.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="bookTitle_Data" layoutX="162.0" layoutY="430.0" prefHeight="36.0" prefWidth="301.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="bookID_Data" layoutX="386.0" layoutY="215.0" prefHeight="55.0" prefWidth="126.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="bookPrice_Data" layoutX="162.0" layoutY="476.0" prefHeight="44.0" prefWidth="143.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="discount_Data" layoutX="208.0" layoutY="528.0" prefHeight="43.0" prefWidth="143.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="amount_Paid" layoutX="183.0" layoutY="559.0" prefHeight="75.0" prefWidth="143.0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label fx:id="Date" layoutX="127.0" layoutY="222.0" prefHeight="39.0" prefWidth="162.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="EmployeeID" layoutX="682.0" layoutY="226.0" prefHeight="33.0" prefWidth="151.0">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label fx:id="discount_Data1" layoutX="241.0" layoutY="526.0" prefHeight="44.0" prefWidth="143.0" text="\%" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </content>
+</DialogPane>
